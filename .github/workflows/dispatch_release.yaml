@@ -24,6 +24,7 @@ on:
 env:
   VERSION: ${{ github.event.inputs.version }}
   PACKAGE_VERSION: ${{ github.event.inputs.version }}
+  ARCH: linux/arm64
 
 jobs:
   docker:
