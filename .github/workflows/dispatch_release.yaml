@@ -27,7 +27,6 @@ env:
 
 jobs:
   docker:
-    needs: pypi
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
